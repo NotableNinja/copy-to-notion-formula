@@ -3,6 +3,7 @@
   "displayName": "Copy to Notion Formula",
   "description": "Easily copy text to a format compatible with Notion formulas. ",
   "repository": "github:NotableNinja/copy-to-notion-formula",
+  "publisher": "NotableNinja",
   "version": "0.2.0",
   "engines": {
     "vscode": "^1.76.0"
