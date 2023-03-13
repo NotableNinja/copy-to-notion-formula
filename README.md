@@ -7,7 +7,6 @@ Makes it simple to write complex formulas in VS Code and copy them to Notion.
 
 This extension adds a command to the command palette that will copy the selected text to the clipboard with Notion formula compatible formatting. This is useful for copying text from VS Code to a Notion formula.
 
-It looks like this:
 ![Copy to Notion Example](copy-to-notion.gif)
 
 ## Release Notes
