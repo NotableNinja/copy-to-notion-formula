@@ -2,7 +2,7 @@
   "name": "copy-to-notion-formula",
   "displayName": "Copy to Notion Formula",
   "description": "Easily copy text to a format compatible with Notion formulas. ",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "engines": {
     "vscode": "^1.76.0"
   },
