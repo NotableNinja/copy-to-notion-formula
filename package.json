@@ -5,7 +5,7 @@
   "repository": "github:NotableNinja/copy-to-notion-formula",
   "publisher": "notableninja",
   "icon": "icon.png",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "engines": {
     "vscode": "^1.76.0"
   },
