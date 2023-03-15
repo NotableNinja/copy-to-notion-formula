@@ -31,7 +31,7 @@ export function activate(context: vscode.ExtensionContext) {
 		// Get the selected text, and copy it to the clipboard using the following regular expression to format it:
 		// /([\n\t][ ]{2,}|[\n\t]|[/]{2}[^\n\t]*)/g -> Matches new lines, tabs, spaces, comments
 		const selectedText = editor.document.getText(selection);
-		const formattedText = selectedText.replace(/([\n\t][ ]{2,}|[\n\t]|[/]{2}[^\n\t]*)/g, '');
+		const formattedText = selectedText.replace(/([\n\t][ ]{2,}|[\n\t]|[/]{2}[^\n\t]*)/g, '').trim();
 		vscode.env.clipboard.writeText(formattedText);
 		vscode.window.showInformationMessage('Copied to clipboard!');
 	});
